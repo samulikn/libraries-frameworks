@@ -15,24 +15,6 @@ function App() {
   const [fetchError, setFetchError] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
-
-  pokemonList
-  
-  types = ...
-  selected = undefined
-  filteredList = pokemonList
-  onSelect = function(type) {
-    if (type === undefined) {
-      filteredList = pokemonList
-    } else {
-      filteredList = pokemonList.filter(pokemon -> pokemon.types.includes(type))
-    }
-  }
-
-  <Selector types={types} selected={selected} onSelect={onSelect} />
-  <Table list={filteredList} />
-
-
   useEffect(() => {
     const fetchItems = async () => {
       try {
