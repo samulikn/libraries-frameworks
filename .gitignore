@@ -1,7 +1,10 @@
 # Ignored files #
 ######################
 node_modules
+tutorials
+list
 
 # OS generated files #
 ######################
 .DS_Store
+
