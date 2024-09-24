@@ -1,7 +1,10 @@
 # Ignored files #
 ######################
 node_modules
+tutorials
+reactTS
 
 # OS generated files #
 ######################
 .DS_Store
+
